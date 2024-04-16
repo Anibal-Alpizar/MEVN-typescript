@@ -10,7 +10,9 @@
     "start": "npm start --prefix server"
   },
   "dependencies": {
-    "vue": "^3.4.21"
+    "axios": "^1.6.8",
+    "vue": "^3.4.22",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
