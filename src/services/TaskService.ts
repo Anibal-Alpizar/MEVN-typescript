@@ -1,6 +1,6 @@
 import { Task } from "../interfaces/Task";
 import axios from "./axios";
-import { Axios, AxiosResponse } from "axios";
+import { AxiosResponse } from "axios";
 
 export const createTask = async (task: Task) =>
   await axios.post("/tasks", task);
